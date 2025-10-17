@@ -8,5 +8,5 @@ use Illuminate\Database\Eloquent\Model;
 class TodoItem extends Model
 {
     use HasFactory;
-    protected $fillable = ['use_id', 'title', 'is_done'];
+    protected $fillable = ['user_id', 'title', 'is_done'];
 }
